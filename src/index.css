@@ -1,0 +1,191 @@
+/* background color */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Poppins" !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ebebeb;
+  border-radius: 16px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2e7a8a;
+  border-radius: 16px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc107;
+}
+
+.ant-table-thead .ant-table-cell {
+  background-color: #2e7a8a !important;
+  color: #eaf2f3 !important;
+  border-radius: 0 !important;
+}
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  text-decoration: none;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+  display: none;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-badge .ant-badge-count {
+  background: #23a095;
+  color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-dropdown
+  .ant-dropdown-menu
+  .ant-dropdown-menu-item {
+  padding: 10px 10px !important;
+  margin-bottom: 0 !important;
+}
+
+/* table padding remove */
+.ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > th:not(:last-child):not(.ant-table-selection-column):not(
+    .ant-table-row-expand-icon-cell
+  ):not([colspan])::before {
+  display: none !important;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  border-bottom: none !important;
+  background-color: #13333a;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  padding: 10px 16px !important;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  padding: 11px 12px !important;
+}
+
+/* alert button */
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #f27405 !important;
+  margin: 0 !important;
+  /* width: 350px !important; */
+  border-radius: 8px !important;
+}
+
+/* slider */
+.ant-slider .ant-slider-handle:hover::after {
+  box-shadow: 0 0 0 4px #6a6d7c !important;
+}
+
+.ant-slider .ant-slider-handle:focus::after {
+  box-shadow: 0 0 0 4px #6a6d7c !important;
+}
+
+.ant-slider .ant-slider-handle::after {
+  box-shadow: 0 0 0 4px #6a6d7c !important;
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-modal .ant-modal-content {
+  padding: 0 !important;
+}
+
+:where(.css-dev-only-do-not-override-1vjf2v5).ant-modal .ant-modal-content {
+  /* background-color: #2e7a8a; */
+  padding: 0 !important;
+}
+
+:where(.css-dev-only-do-not-override-wjlpzy).ant-modal .ant-modal-content {
+  /* background-color: #2e7a8a; */
+  padding: 0 !important;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-layout {
+  background-color: #121212 !important;
+}
+
+/* side layout bg color  */
+:where(.css-dev-only-do-not-override-djtmh8).ant-layout .ant-layout-sider {
+  background: #13333a !important;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-table-wrapper
+  .ant-table-tbody
+  .ant-table-row.ant-table-row-selected
+  > .ant-table-cell {
+  background: transparent !important;
+}
+
+.jodit-toolbar__box:not(:empty):not(:empty) {
+  background: #d6d6d6 !important;
+  margin: 7px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-tabs .ant-tabs-tab {
+  background: #d29e3b;
+  /* padding-left: 10px;
+  /* padding-right: 10px;   */
+  border-radius: 10px;
+  padding: 8px;
+  /* width: 170px;  */
+  color: white;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-tabs
+  .ant-tabs-tab.ant-tabs-tab-active
+  .ant-tabs-tab-btn {
+  color: white;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-tabs .ant-tabs-ink-bar {
+  background: none;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-tabs .ant-tabs-tab:hover {
+  color: white !important;
+}
+
+.ant-tabs .ant-tabs-nav {
+  position: static;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th.action-column {
+  padding-right: 80px !important;
+}
+
+.ant-pagination-options {
+  display: none;
+}
+
+:where(.css-dev-only-do-not-override-1vjf2v5).ant-layout {
+  background: #000000 !important;
+}
